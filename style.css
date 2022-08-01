@@ -1,0 +1,186 @@
+/*Include fonts police*/
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:300,500,700,900');
+
+/*-------- Body style --------------- */
+body
+{
+  background-color:#dfe8ff ;
+}
+/*Body and global card*/
+.card-container, body{
+  margin: 0;
+  padding: 0;    
+  font-family: 'Red Hat Display';    
+}
+.card-container
+{
+  background: url('images/pattern-background-desktop.svg');
+  width: 100%;
+  padding: 0px;
+  height: 100vh; 
+  background-size: contain;
+   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:  22px;
+}
+/*Centered card start  ----------------------------*/
+.card-centered
+{
+   background: white;
+   width: 450px;
+   height: 697px;
+   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+   border-radius: 22px;
+}
+#card-img
+{
+  width: 100%;
+  height: 220px;
+  background: url("images/illustration-hero.svg");
+  border-radius: 22px 22px 0px 0px;
+}
+/*Card content start  ----------------------------*/
+.card-content
+{
+  width: 80%;
+  margin: 0 auto;
+}
+.content-summary, .content-summary-info
+{
+    text-align: center;
+    font-weight: 900;
+}
+.content-summary
+{
+    font-size: 28px;
+    color: #1F2E55;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 37px;
+}
+.content-summary-info
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717FA6;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+/*Content price start  ----------------------------*/
+.content-price-year
+{
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #717FA6;
+}
+.content-price
+{
+  background: #F7F9FF;
+  height: 100px;
+  margin-top: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 11px;
+  background: #F7F9FF;
+}
+.content-price-info
+{
+   padding-top: 22px;
+}
+.content-price-img
+{
+   float: left;
+   margin: 20px;
+}
+.content-left
+{
+  float: left;
+}
+.content-right
+{
+   float: right;
+   margin-top: 12px;
+}
+.content-price-plan
+{
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F2E55;
+}
+/*Content price end  ----------------------------*/
+
+/*Buttons start  ----------------------------*/
+.btn-payement
+{
+  font-weight: bold;
+  background: #382AE1;
+  border-radius: 11px;
+  border: 2px solid #382AE1;
+  color: white;
+  height: 22px;
+  text-align: center;
+  width: 100%;
+  height: 49px;
+  font-size: 15px;
+  margin-top: 28px;
+  box-shadow: 0px 20px 20px #e3e1fb;
+  font-family: 'Red Hat Display';    
+}
+.btn-change
+{
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #382AE1;
+  margin-right: 12px;
+}
+.btn-change:hover, .btn-change:focus
+{
+   color: #766cf1;
+}
+.btn-cancel-order
+{
+  text-align: center;
+  color: #717FA6;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717FA6;
+}
+/*Button Hover  */
+.btn-payement:hover, .btn-payement:focus
+{
+   background-color: #766cf1;
+   border: 2px solid #766cf1;
+}
+.btn-cancel-order:hover, .btn-cancel-order:focus
+{
+  color: #1F2E55;
+}
+/*Buttons end  ----------------------------*/
+/*Card content end  ----------------------------*/
+
+/*Media queries*/
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+  .card-centered
+  {
+    margin-bottom: auto;
+  }
+}
+
+
